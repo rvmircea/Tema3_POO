@@ -17,6 +17,7 @@ public:
     {
         numarOchi=nrO;
     }
+
     Pesti(const Pesti& Peste): Vertebrate(Peste)
     {
         numarOchi = Peste.numarOchi;

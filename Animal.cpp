@@ -37,12 +37,12 @@ istream& operator >>(istream &in, Animal& A)
     return in;
 }
 
-ostream& operator <<(ostream &out, Animal& A)
+/*ostream& operator <<(ostream &out, Animal& A)
 {
     cout<<"\nSunt un "<<A.nume<<" si am "<<A.varsta<<" anisori";
 
     return out;
-}
+}*/
 
 void Animal::operator=(const Animal&x)
 {

@@ -17,8 +17,9 @@ public:
     ~Animal();
 
     friend istream& operator >>(istream &in, Animal&);
-    friend ostream& operator <<(ostream &, Animal&);
+    //friend ostream& operator <<(ostream &, Animal&);
     void operator =(const Animal&);
+
     virtual void afisare()=0;
 
 
