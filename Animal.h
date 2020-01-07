@@ -13,18 +13,19 @@ protected:
 public:
     Animal();
     Animal(string,int);
+    Animal(const Animal&);
     ~Animal();
 
-    friend istream operator >>(istream &in, Animal&A);
+    friend istream& operator >>(istream &in, Animal&);
+    friend ostream& operator <<(ostream &, Animal&);
+    void operator =(const Animal&);
+   // virtual void afisare()=0;
+
 
 };
 
-istream operator >>(istream &in, Animal&A)
-{
-    cout<<"Introduceti numele, varsta animalului: ";
-    in>>A.nume>>A.varsta;
-}
 
+/*
 Animal::Animal()
 {
     varsta = 0;
@@ -39,5 +40,7 @@ Animal::Animal(string nm,int vrst)
 Animal::~Animal()
 {
 }
+
+*/
 
 #endif

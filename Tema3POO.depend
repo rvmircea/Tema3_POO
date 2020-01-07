@@ -1,9 +1,12 @@
 # depslib dependency file v1.0
-1578338313 source:e:\codeblocks\proiecte\tema3poo\main.cpp
+1578417197 source:e:\codeblocks\proiecte\tema3poo\main.cpp
 	<iostream>
 	"Animal.h"
 
-1578338509 e:\codeblocks\proiecte\tema3poo\animal.h
+1578417518 e:\codeblocks\proiecte\tema3poo\animal.h
 	<iostream>
 	<string>
+
+1578417212 source:e:\codeblocks\proiecte\tema3poo\animal.cpp
+	"Animal.h"
 

@@ -8,5 +8,7 @@ int main()
 {
     Animal animalutz;
     cin>>animalutz;
+
+    cout<<animalutz;
     return 0;
 }
