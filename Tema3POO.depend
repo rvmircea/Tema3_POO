@@ -1,9 +1,10 @@
 # depslib dependency file v1.0
-1578419560 source:e:\codeblocks\proiecte\tema3poo\main.cpp
+1578421975 source:e:\codeblocks\proiecte\tema3poo\main.cpp
 	<iostream>
 	"Animal.h"
 	"Vertebrate.h"
 	"Nevertebrate.h"
+	"Pesti.h"
 
 1578419697 e:\codeblocks\proiecte\tema3poo\animal.h
 	<iostream>
@@ -12,15 +13,21 @@
 1578417212 source:e:\codeblocks\proiecte\tema3poo\animal.cpp
 	"Animal.h"
 
-1578419371 source:e:\codeblocks\proiecte\tema3poo\vertebrate.cpp
+1578421178 source:e:\codeblocks\proiecte\tema3poo\vertebrate.cpp
 	"Vertebrate.h"
 
-1578418950 e:\codeblocks\proiecte\tema3poo\vertebrate.h
+1578421194 e:\codeblocks\proiecte\tema3poo\vertebrate.h
 	"Animal.h"
 
-1578419542 source:e:\codeblocks\proiecte\tema3poo\nevertebrate.cpp
+1578419772 source:e:\codeblocks\proiecte\tema3poo\nevertebrate.cpp
 	"Nevertebrate.h"
 
 1578419465 e:\codeblocks\proiecte\tema3poo\nevertebrate.h
 	"Animal.h"
+
+1578421653 e:\codeblocks\proiecte\tema3poo\pesti.h
+	"Vertebrate.h"
+
+1578421741 source:e:\codeblocks\proiecte\tema3poo\pesti.cpp
+	"Pesti.h"
 

@@ -7,11 +7,14 @@ using namespace std;
 
 class Vertebrate:public Animal
 {
-private:
+protected:
     int numarOchi;
 
 public:
     Vertebrate();
+
+    Vertebrate(int);
+
 
     //apel explicit constructor parametrizat din baza Animal
     Vertebrate(string nm, int vrst): Animal(nm,vrst)

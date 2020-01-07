@@ -7,6 +7,11 @@ Vertebrate::Vertebrate()
     numarOchi = 0;
 }
 
+Vertebrate::Vertebrate(int nrO)
+{
+    numarOchi = nrO;
+}
+
 Vertebrate::~Vertebrate()
 {
 
