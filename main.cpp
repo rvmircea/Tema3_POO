@@ -4,6 +4,7 @@
 #include "Nevertebrate.h"
 #include "Pesti.h"
 #include "Pasari.h"
+#include "Mamifere.h"
 
 
 #include <bits/stdc++.h>
