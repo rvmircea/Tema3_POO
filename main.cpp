@@ -42,22 +42,32 @@ int main()
     Nevertebrate N;
     Pesti P;
 
-    vector<Animal*> l;
+    list<Animal*> l;
+    list<Animal*>::iterator it;
 
     l.push_back(&V);
     l.push_back(&N);
     l.push_back(&P);
 
     cout<<typeid(V).name()<<endl;
-    for(int i = 0;i<l.size();i++ )
+    for(it = l.begin(); it != l.end(); it++)
     {
-        if (dynamic_cast<Vertebrate*>(l[i]) != 0 )
-            {
-            cout<<"\nSunt vertebrat "<<i;
-                if (dynamic_cast<Pesti*>(l[i]) != 0 )
+
+            if(dynamic_cast<Vertebrate*> (*it) != 0)
+               {
+                  cout<<"\nSunt vertebrat ";
+                  if (dynamic_cast<Pesti*>(*it) != 0 )
                     cout<<"\nSunt peste";
+               }
+               // cout <<"sunt vertebrat "<<endl;
+        /*if (dynamic_cast<Vertebrate*>(it) ) != 0 )
+            {
+
+
             }
             //cout<<type_index( typeid( l[i] ) ) <<endl;
+
+            */
     }
 
 

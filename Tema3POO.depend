@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1578427610 source:e:\codeblocks\proiecte\tema3poo\main.cpp
+1578481169 source:e:\codeblocks\proiecte\tema3poo\main.cpp
 	<iostream>
 	"Animal.h"
 	"Vertebrate.h"
@@ -45,4 +45,10 @@
 
 1578427980 source:e:\codeblocks\proiecte\tema3poo\mamifere.cpp
 	"Mamifere.h"
+
+1578428588 source:e:\codeblocks\proiecte\tema3poo\reptile.cpp
+	"Reptile.h"
+
+1578428380 e:\codeblocks\proiecte\tema3poo\reptile.h
+	"Vertebrate.h"
 
