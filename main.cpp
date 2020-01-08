@@ -5,7 +5,7 @@
 #include "Pesti.h"
 #include "Pasari.h"
 #include "Mamifere.h"
-
+#include "atlasZoologic.h"
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -13,31 +13,12 @@ using namespace std;
 
 int main()
 {
-   /* Vertebrate animalutz;
-    cin>>animalutz;
+    Mamifere p;
+    AtlasZoologic<Mamifere> az;
 
-    //cout<<animalutz;
-    animalutz.afisare();
+    az.Coperta( p);
 
-    cout<<endl;
-
-    Nevertebrate bestie;
-    cin>>bestie;
-    bestie.afisare();*/
-
- /*Animal *A;
-
-    Vertebrate v;
-    Nevertebrate n;
-
-    list<Animal*> l;
-
-
-    l.push_back(&v);
-    l.push_back(&n);
-
-*/
-
+    /*
     Vertebrate V;
     Nevertebrate N;
     Pesti P;
@@ -55,21 +36,21 @@ int main()
 
             if(dynamic_cast<Vertebrate*> (*it) != 0)
                {
-                  cout<<"\nSunt vertebrat ";
+                  (*it)->afisare();
                   if (dynamic_cast<Pesti*>(*it) != 0 )
                     cout<<"\nSunt peste";
                }
                // cout <<"sunt vertebrat "<<endl;
-        /*if (dynamic_cast<Vertebrate*>(it) ) != 0 )
+        if (dynamic_cast<Vertebrate*>(it) ) != 0 )
             {
 
 
             }
             //cout<<type_index( typeid( l[i] ) ) <<endl;
 
-            */
-    }
 
+    }
+*/
 
 
     return 0;

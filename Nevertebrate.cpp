@@ -22,6 +22,11 @@ istream& operator >>(istream &in, Nevertebrate& Nv)
     return in;
 }
 
+void Nevertebrate::operator=(const Nevertebrate &N)
+{
+    greutate=N.greutate;
+}
+
 void Nevertebrate::afisare()
 {
     cout<<"\nSunt un "<<nume<<" fara oase si cantaresc "<<greutate<<" si am "<<varsta<<" anisori\n";

@@ -24,6 +24,8 @@ public:
 
     ~Mamifere();
 
+    void operator =(const Mamifere&);
+
      friend istream& operator >>(istream &in, Mamifere&);
     void afisare();
 };

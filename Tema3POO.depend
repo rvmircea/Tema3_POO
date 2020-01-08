@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1578481169 source:e:\codeblocks\proiecte\tema3poo\main.cpp
+1578511813 source:e:\codeblocks\proiecte\tema3poo\main.cpp
 	<iostream>
 	"Animal.h"
 	"Vertebrate.h"
@@ -7,6 +7,7 @@
 	"Pesti.h"
 	"Pasari.h"
 	"Mamifere.h"
+	"atlasZoologic.h"
 	<bits/stdc++.h>
 
 1578423586 e:\codeblocks\proiecte\tema3poo\animal.h
@@ -16,34 +17,34 @@
 1578423586 source:e:\codeblocks\proiecte\tema3poo\animal.cpp
 	"Animal.h"
 
-1578421178 source:e:\codeblocks\proiecte\tema3poo\vertebrate.cpp
+1578509749 source:e:\codeblocks\proiecte\tema3poo\vertebrate.cpp
 	"Vertebrate.h"
 
-1578421194 e:\codeblocks\proiecte\tema3poo\vertebrate.h
+1578509749 e:\codeblocks\proiecte\tema3poo\vertebrate.h
 	"Animal.h"
 
-1578419772 source:e:\codeblocks\proiecte\tema3poo\nevertebrate.cpp
+1578509839 source:e:\codeblocks\proiecte\tema3poo\nevertebrate.cpp
 	"Nevertebrate.h"
 
-1578419465 e:\codeblocks\proiecte\tema3poo\nevertebrate.h
+1578509839 e:\codeblocks\proiecte\tema3poo\nevertebrate.h
 	"Animal.h"
 
-1578422719 e:\codeblocks\proiecte\tema3poo\pesti.h
+1578509839 e:\codeblocks\proiecte\tema3poo\pesti.h
 	"Vertebrate.h"
 
-1578422618 source:e:\codeblocks\proiecte\tema3poo\pesti.cpp
+1578509883 source:e:\codeblocks\proiecte\tema3poo\pesti.cpp
 	"Pesti.h"
 
-1578422790 e:\codeblocks\proiecte\tema3poo\pasari.h
+1578509997 e:\codeblocks\proiecte\tema3poo\pasari.h
 	"Vertebrate.h"
 
-1578426683 source:e:\codeblocks\proiecte\tema3poo\pasari.cpp
+1578509997 source:e:\codeblocks\proiecte\tema3poo\pasari.cpp
 	"Pasari.h"
 
-1578427822 e:\codeblocks\proiecte\tema3poo\mamifere.h
+1578511689 e:\codeblocks\proiecte\tema3poo\mamifere.h
 	"Vertebrate.h"
 
-1578427980 source:e:\codeblocks\proiecte\tema3poo\mamifere.cpp
+1578510005 source:e:\codeblocks\proiecte\tema3poo\mamifere.cpp
 	"Mamifere.h"
 
 1578428588 source:e:\codeblocks\proiecte\tema3poo\reptile.cpp
@@ -51,4 +52,14 @@
 
 1578428380 e:\codeblocks\proiecte\tema3poo\reptile.h
 	"Vertebrate.h"
+
+1578511569 source:e:\codeblocks\proiecte\tema3poo\atlaszoologic.cpp
+	"atlasZoologic.h"
+
+1578512012 e:\codeblocks\proiecte\tema3poo\atlaszoologic.h
+	<iostream>
+	<list>
+	"Animal.h"
+	"Pesti.h"
+	"typeinfo"
 

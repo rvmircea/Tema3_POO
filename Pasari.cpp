@@ -23,6 +23,11 @@ istream& operator >>(istream &in, Pasari& Pasare)
     return in;
 }
 
+void Pasari::operator=(const Pasari &Pasare)
+{
+    culoareCioc=Pasare.culoareCioc;
+}
+
 void Pasari::afisare()
 {
     cout<<"\nSunt un pasari cu ciocul de culoare "<<culoareCioc<<endl;

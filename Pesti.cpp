@@ -23,6 +23,11 @@ istream& operator >>(istream &in, Pesti& Peste)
     return in;
 }
 
+void Pesti::operator=(const Pesti &Peste)
+{
+    culoareSolzi=Peste.culoareSolzi;
+}
+
 void Pesti::afisare()
 {
     cout<<"\nSunt un peste de culoare "<<culoareSolzi<<endl;

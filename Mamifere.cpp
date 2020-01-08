@@ -25,6 +25,11 @@ istream& operator >>(istream &in, Mamifere& Mamifer)
     return in;
 }
 
+void Mamifere::operator=(const Mamifere &Mamifer)
+{
+    lungimePar=Mamifer.lungimePar;
+}
+
 void Mamifere::afisare()
 {
     cout<<"\nSunt un mamifer ";

@@ -31,6 +31,10 @@ istream& operator >>(istream &in, Vertebrate& V)
     return in;
 }
 
+void Vertebrate::operator=(const Vertebrate &V)
+{
+    numarOchi=V.numarOchi;
+}
 
 void Vertebrate::afisare()
 {

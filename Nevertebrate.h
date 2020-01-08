@@ -28,6 +28,8 @@ public:
 
     ~Nevertebrate();
 
+    void operator =(const Nevertebrate&);
+
     friend istream& operator >>(istream &in, Nevertebrate&);
     void afisare();
 

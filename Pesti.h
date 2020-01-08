@@ -25,6 +25,8 @@ public:
 
     ~Pesti();
 
+    void operator =(const Pesti&);
+
     friend istream& operator >>(istream &in, Pesti&);
     void afisare();
 

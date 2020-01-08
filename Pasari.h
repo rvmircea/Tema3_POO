@@ -24,6 +24,8 @@ public:
 
     ~Pasari();
 
+    void operator =(const Pasari&);
+
     friend istream& operator >>(istream &in, Pasari&);
     void afisare();
 

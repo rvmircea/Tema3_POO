@@ -31,6 +31,8 @@ public:
 
     ~Vertebrate();
 
+    void operator =(const Vertebrate&);
+
     friend istream& operator >>(istream &in, Vertebrate&);
     void afisare();
 
