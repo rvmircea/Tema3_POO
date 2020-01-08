@@ -24,7 +24,20 @@ istream& operator >>(istream &in, Vertebrate& V)
     cout<<"\n Nume: ";
     in>>V.nume;
     cout<<"\n Varsta: ";
+    try{
+
     in>>V.varsta;
+    if(V.varsta != int(V.varsta) )
+        {
+            throw V.varsta;
+        }
+
+        }
+        catch(float e)
+            {
+                cout<<"\n Trebuie sa fie numar intreg !";
+            }
+
     cout<<"\n Numar ochi ";
     in>>V.numarOchi;
 

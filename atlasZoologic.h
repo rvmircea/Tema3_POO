@@ -13,14 +13,18 @@ template <typename T>
 class AtlasZoologic
 {
 private:
-    static int numarAnimale;
+
     list<Animal*> listaAntimale;
     T coperta;
 public:
+    static int numarAnimale;
     AtlasZoologic();
     ~AtlasZoologic();
 
     void Coperta(T);
+
+    void info();
+    void operator +=(T &);
 
 };
 
@@ -45,6 +49,40 @@ void AtlasZoologic<T>::Coperta(T a)
     cout<<"\nAtlasul are pe coperta "<<typeid(T).name() <<endl;
 }
 
+template<typename T>
+void AtlasZoologic<T>::operator +=(T &t)
+{
+    listaAntimale.push_back(&t);
+    numarAnimale++;
+}
+
+template<typename T>
+void AtlasZoologic<T>::info()
+{
+    list<Animal*>::iterator it;
+
+    for(it = listaAntimale.begin(); it!=listaAntimale.end(); it++)
+    {
+        (*it)->afisare();
+    }
+
+}
+
+/*template<>
+void AtlasZoologic<Pesti>::info()
+{
+    list<Animal*>::iterator it;
+    for(it = listaAntimale.begin(); it != listaAntimale.end(); it++)
+    {
+        if (dynamic_cast<Pesti*>(*it) != 0 )
+            //if( (*it)->g_tip == "rapitor" && (*it)->g_lungime >= 1)
+                cout<<"Test";
+    }
+
+
+
+}
+*/
 
 #endif // ATLAS_H
 

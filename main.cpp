@@ -13,10 +13,20 @@ using namespace std;
 
 int main()
 {
-    Mamifere p;
+    Mamifere p,peste;
+    cin>>p;
+
+    cout<<"Animal: ";
+    cin>>peste;
+
     AtlasZoologic<Mamifere> az;
 
-    az.Coperta( p);
+    az.Coperta(p);
+    az+=p;
+    az+=peste;
+
+    az.info();
+    cout<<"\nNumar animale: "<<az.numarAnimale;
 
     /*
     Vertebrate V;

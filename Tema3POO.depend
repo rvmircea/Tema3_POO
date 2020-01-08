@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1578511813 source:e:\codeblocks\proiecte\tema3poo\main.cpp
+1578515662 source:e:\codeblocks\proiecte\tema3poo\main.cpp
 	<iostream>
 	"Animal.h"
 	"Vertebrate.h"
@@ -17,7 +17,7 @@
 1578423586 source:e:\codeblocks\proiecte\tema3poo\animal.cpp
 	"Animal.h"
 
-1578509749 source:e:\codeblocks\proiecte\tema3poo\vertebrate.cpp
+1578516675 source:e:\codeblocks\proiecte\tema3poo\vertebrate.cpp
 	"Vertebrate.h"
 
 1578509749 e:\codeblocks\proiecte\tema3poo\vertebrate.h
@@ -29,10 +29,10 @@
 1578509839 e:\codeblocks\proiecte\tema3poo\nevertebrate.h
 	"Animal.h"
 
-1578509839 e:\codeblocks\proiecte\tema3poo\pesti.h
+1578515025 e:\codeblocks\proiecte\tema3poo\pesti.h
 	"Vertebrate.h"
 
-1578509883 source:e:\codeblocks\proiecte\tema3poo\pesti.cpp
+1578514978 source:e:\codeblocks\proiecte\tema3poo\pesti.cpp
 	"Pesti.h"
 
 1578509997 e:\codeblocks\proiecte\tema3poo\pasari.h
@@ -53,10 +53,10 @@
 1578428380 e:\codeblocks\proiecte\tema3poo\reptile.h
 	"Vertebrate.h"
 
-1578511569 source:e:\codeblocks\proiecte\tema3poo\atlaszoologic.cpp
+1578512078 source:e:\codeblocks\proiecte\tema3poo\atlaszoologic.cpp
 	"atlasZoologic.h"
 
-1578512012 e:\codeblocks\proiecte\tema3poo\atlaszoologic.h
+1578516656 e:\codeblocks\proiecte\tema3poo\atlaszoologic.h
 	<iostream>
 	<list>
 	"Animal.h"

@@ -15,7 +15,22 @@ istream& operator >>(istream &in, Nevertebrate& Nv)
     cout<<"\n Nume: ";
     in>>Nv.nume;
     cout<<"\n Varsta: ";
+
+    try{
+
     in>>Nv.varsta;
+    if(Nv.varsta != int(Nv.varsta) )
+        {
+            throw Nv.varsta;
+        }
+
+        }
+        catch(float e)
+            {
+                cout<<"\n Trebuie sa fie numar intreg !";
+            }
+
+
     cout<<"\n Greutate ";
     in>>Nv.greutate;
 

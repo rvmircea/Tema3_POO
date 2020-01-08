@@ -9,6 +9,8 @@ class Pesti:public Vertebrate
 {
 private:
     string culoareSolzi;
+    float lungime;
+    string tip;
 public:
 
     Pesti();
@@ -29,6 +31,9 @@ public:
 
     friend istream& operator >>(istream &in, Pesti&);
     void afisare();
+
+    string g_tip();
+    float g_lungime();
 
 };
 
